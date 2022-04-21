@@ -127,6 +127,11 @@ a:hover{
 #services{
     padding-top: 30px;
     padding-bottom: 60px;
+}
+
+/* ACERCA DE NOSOTROS */
+#aboutus{
+    margin-top: 30px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -150,6 +155,37 @@ a:hover{
     border-radius: 8px;
     color: white;
     background: linear-gradient(to top left, #39f, #76ddff);
+}
+
+.aboutus-title{
+    color: #39f;
+    font-size: 32px;
+}
+
+.aboutus-container{
+    box-sizing: border-box;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 615px 615px;
+    gap: 16px;
+}
+
+.aboutus-container-item-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(to top left, rgb(71, 163, 255), #76ddff);
+    padding: 16px;
+}
+
+.aboutus-container-item-right{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #39f;
     padding: 16px;
 }
 
@@ -163,4 +199,8 @@ a:hover{
     .services-container{
         grid-template-columns: repeat(1,minmax(0px, 90vw));
     }
+    .aboutus-container{
+        grid-template-columns: repeat(2,minmax(0px, 45vw));
+    }
+
 }

@@ -1,0 +1,9 @@
+/* FOOTER */
+#footer{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: 100%;
+    background: linear-gradient(to bottom right, #39f, #9EE2F9);
+}
